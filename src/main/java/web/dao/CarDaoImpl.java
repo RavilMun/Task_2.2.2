@@ -17,7 +17,7 @@ public class CarDaoImpl implements CarDao {
     }};
 
     @Override
-    public List<Car> getAllCars(int count) {
+    public List<Car> getAllCars() {
         return cars;
     }
 }
